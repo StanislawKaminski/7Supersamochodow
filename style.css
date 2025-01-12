@@ -52,6 +52,17 @@ a{
     text-shadow: white 3px 0 10px;
     z-index: 100;
 }
+.footer{
+    margin: 1vw;
+    padding: 5pt;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0 , 0.6);
+    color: white;
+    border-radius: 10pt;
+    text-align: left;
+    text-shadow: white 3px 0 10px;
+    z-index: 100;
+}
 .navmobile a{
     color: white;
 }
