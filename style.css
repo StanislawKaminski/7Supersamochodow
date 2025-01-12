@@ -52,6 +52,9 @@ a{
     text-shadow: white 3px 0 10px;
     z-index: 100;
 }
+.navmobile a{
+    color: white;
+}
 .navmobile a:visited{
     color: white;
 }
