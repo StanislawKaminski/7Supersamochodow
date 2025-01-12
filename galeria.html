@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta title="Top 7 Supersamochodów">
+        <title>Galeria</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <div class="headermobile" onclick="myFunction()">Galeria</div>
+        <div class="navmobile"><span onclick="setDiv(1)">Lexus LFA</span><br><span onclick="setDiv(6)">Ferrari F40</span><br><span onclick="setDiv(11)">Detomaso Pantera</span><br><span onclick="setDiv(16)">Lamborghini Miura</span><br><span onclick="setDiv(21)">McLaren F1</span><br><span onclick="setDiv(26)">Koenigsegg CC8S</span><br><span onclick="setDiv(31)">Porsche Carrera GT</span></div>
+        <div class="navbardesktop"><img class="imagepreview" src="images/LFA1.jpg" onclick="setDiv(1)"><img class="imagepreview" src="images/f401.jpg" onclick="setDiv(6)"><img class="imagepreview" src="images/Detomaso1.jpeg" onclick="setDiv(11)"><img class="imagepreview" src="images/miura1.jpg" onclick="setDiv(16)"><img class="imagepreview" src="images/F11.jpg" onclick="setDiv(21)"><img class="imagepreview" src="images/cc8s1.jpg" onclick="setDiv(26)"><img class="imagepreview" src="images/gt1.jpg" onclick="setDiv(31)"></div>
+        <div class="gallery">
+            <img class="galleryimage" src="images/LFA1.jpg">
+            <img class="galleryimage" src="images/LFA2.jpg">
+            <img class="galleryimage" src="images/LFA3.jpg">
+            <img class="galleryimage" src="images/LFA4.jpg">
+            <img class="galleryimage" src="images/LFA5.jpg">
+            <img class="galleryimage" src="images/f401.jpg">
+            <img class="galleryimage" src="images/f402.jpg">
+            <img class="galleryimage" src="images/f403.jpg">
+            <img class="galleryimage" src="images/f404.jpg">
+            <img class="galleryimage" src="images/f405.jpg">
+            <img class="galleryimage" src="images/Detomaso1.jpeg">
+            <img class="galleryimage" src="images/Detomaso2.jpeg">
+            <img class="galleryimage" src="images/Detomaso3.jpeg">
+            <img class="galleryimage" src="images/Detomaso4.jpeg">
+            <img class="galleryimage" src="images/Detomaso5.jpeg">
+            <img class="galleryimage" src="images/miura1.jpg">
+            <img class="galleryimage" src="images/miura2.jpeg">
+            <img class="galleryimage" src="images/miura3.jpeg">
+            <img class="galleryimage" src="images/miura4.jpeg">
+            <img class="galleryimage" src="images/miura5.jpeg">
+            <img class="galleryimage" src="images/F11.jpg">
+            <img class="galleryimage" src="images/F12.jpg">
+            <img class="galleryimage" src="images/F13.jpg">
+            <img class="galleryimage" src="images/F14.jpg">
+            <img class="galleryimage" src="images/F15.jpg">
+            <img class="galleryimage" src="images/cc8s1.jpg">
+            <img class="galleryimage" src="images/cc8s2.jpg">
+            <img class="galleryimage" src="images/cc8s3.jpg">
+            <img class="galleryimage" src="images/cc8s4.jpg">
+            <img class="galleryimage" src="images/cc8s5.jpg">
+            <img class="galleryimage" src="images/gt1.jpg">
+            <img class="galleryimage" src="images/gt2.jpg">
+            <img class="galleryimage" src="images/gt3.jpg">
+            <img class="galleryimage" src="images/gt4.jpg">
+            <img class="galleryimage" src="images/gt5.jpg">
+            <button class="button-prev" onclick="plusDivs(-1)">&#10094 PREV</button>
+            <button class="button-next" onclick="plusDivs(+1)">NEXT &#10095;</button>
+        </div>
+        <script src="script.js"></script>
+        <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("navmobile");
+                if (x[0].style.display == "none") {
+                    x[0].style.display = "block";
+                } else {
+                    x[0].style.display = "none";
+                }
+            }
+        </script>
+    </body>
+</html>        
