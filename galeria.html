@@ -53,12 +53,15 @@
         </div>
         <script src="script.js"></script>
         <script>
+            var visibility = 0;
             function myFunction() {
                 var x = document.getElementsByClassName("navmobile");
-                if (x[0].style.display == "none") {
+                if (visibility == 0) {
                     x[0].style.display = "block";
+                    visibility = 1;
                 } else {
                     x[0].style.display = "none";
+                    visibility = 0;
                 }
             }
         </script>
